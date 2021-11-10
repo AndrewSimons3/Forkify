@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewSimons3/Forkify.git"
+  },
+  "author": "Andrew Simons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewSimons3/Forkify/issues"
+  },
+  "homepage": "https://github.com/AndrewSimons3/Forkify#readme",
+  "dependencies": {
+    "core-js": "^3.19.1",
+    "parcel": "^2.0.1",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1"
+  }
+}
